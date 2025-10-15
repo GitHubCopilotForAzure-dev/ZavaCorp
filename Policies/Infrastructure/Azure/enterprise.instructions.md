@@ -10,8 +10,10 @@ Zava has some strict policies around Azure deployments and usage. Always follow 
     - Must use Azure SQL or PostgreSQL Flexible Server
     - Must use Microsoft Entra-only authentication
 3. **PaaS Services**
+    - Must always use these services for hosting applications and services:
+        - Azure Functions
+        - Azure Container Apps
     - Must use Managed Identity for authentication
-    - Must use Azure Functions or Azure Container Apps where applicable
 4. **Locations**
     - Must use one of the approved regions: East US, East US 2, West US 2, Central US, North Europe, West Europe
     - For production workloads, must use at least two regions for high availability
