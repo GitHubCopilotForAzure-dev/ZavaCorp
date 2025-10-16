@@ -1,0 +1,4 @@
+name: enterprise-policy-rules
+version: 1.0.0
+description: Corporate enterprise policy rules for Azure development
+author: Azure Policy Team
